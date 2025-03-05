@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <!-- Official Firefox .pkg download URL -->
+                    <string>https://download-installer.cdn.mozilla.net/pub/firefox/releases/127.0/mac/en-US/Firefox%20127.0.pkg</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>org.mozilla.firefox</string>
+                <key>bundle-version</key>
+                <string>127.0</string> <!-- Match the Firefox version -->
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Mozilla Firefox</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
